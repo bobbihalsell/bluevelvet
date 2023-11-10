@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blue Velvet Catering NYC</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Prata&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    
+    <header>
+        <nav>
+            <br>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="blue velvet catering nyc new york"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="about.html"><b>ABOUT US</b></a></li>
+                    <li><a href="menu.html"><b>OUR MENUS</b></a></li>
+                    <li><a href="smallbites.html"><b>HORS D'OEUVRES</b></a></li>
+                    <li><a href="policy.html"><b>POLICY</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+<!--- about --->
+    <section class="back">
+        <section class="page about">
+            <h1>About Us</h1>
+            <p>
+                Blue Velvet NYC is a full service catering & event planning company. We can handle all events small or large and specialize in both corporate and private events. We can handle every aspect of your event from food, rental, bartenders & wait staff, venues, balloon & floral arrangements. Our dedication to providing dependable, on time, flavorful experiences is what separates us from other companies.
+            </p>
+            <p>
+                There is a lot of careful planning that goes into each event. Large or small every single event is treated as a priority. The key to our success understanding the needs of our customers, identifying the needs of the event and executing it flawlessly. Your event planner will work with you every step of the way providing guidance and expert opinions. We pay very close attention to detail and logistics to ensure a hassle free experience.
+            </p>
+            <p>
+                Our executive chef has a decorated background, he has worked at various restaurants, country clubs and resorts across the country. His cooking style is best described as modern American. Which is a fusion cuisine of French, Latin American, new American, Mediterranean and Asian. Combine that with a melting pot of traditional American techniques mixed with foreign techniques and molecular gastronomy.
+            </p>
+            <p>
+                We strive to provide the best customer service experience. Resourcefulness is the key to value and excellence. We provide coaching to our staff and welcome customer feedback, so we can continue to perform at the highest level. 
+            </p>
+        </section>
+    </section>
+
+
+
+
+
+     <!--- footer --->
+
+     <footer>
+        <div class="row">
+            <p>bluevelvetcateringnyc@gmail.com</p>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="blue velvet catering nyc new york"></a>
+            <p>5 E 47th St. New York, NY</p>
+        </div>
+    </footer>
+
+
+    
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

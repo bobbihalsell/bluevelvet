@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Velvet Catering NYC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Prata&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header class="home">
+        <nav>
+            <br>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="blue velvet catering nyc new york"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="about.html"><b>ABOUT US</b></a></li>
+                    <li><a href="menu.html"><b>OUR MENUS</b></a></li>
+                    <li><a href="smallbites.html"><b>HORS D'OEUVRES</b></a></li>
+                    <li><a href="policy.html"><b>POLICY</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>New York Citys<br>Catering Specialists</h1>
+            <h4>CULINARY EXCELLENCE FOR UNFORGETTABLE OCCASIONS.</h4>
+            <a href="contact.html" class="btn"><b>CONTACT TODAY</b></a>
+        </div>
+    </header>
+
+<!--- bites promotion --->
+    <section class="back orange">
+        <section class="bites-promo">
+
+            <h3>Introducing our new </h3>
+            <h1>luxury Hors D'Oeuvres experience</h1>
+            <h4>Create an experience at your event with our fantastically crafted 10pc small bites menu,<br>served fresh and unlimited throughout the night, along with an open bar service. </h4>
+            <a href="smallbites.html" class="small">click here to learn more</a>
+        </section>
+    </section>
+
+<!--- intro --->
+    <section class="back">
+        <section class="intro">
+
+            <h2>CATERING FOR ALL YOUR EVENTS</h2>
+            <h4>At Blue Velvet Catering, we take pride in our ability to cater to an<br>array of events, bringing our passion for delectable dishes and<br>exceptional service to every occasion with a commitment to<br>quality and your unique vision in mind, we're here to make your<br>event not just memorable, but truly extraordinary.</h4>
+    
+            <div class="row">
+                <div class="event-col event-text">
+                    <h3>HORS D'OEUVRES</h3>
+                    <p>Meticulously crafted small<br>bite menus. Our Luxury Hors d'oeuvres Menus showcase a fusion of global influences<br>and contemporary trends using only high-quality ingredients and innovative preparation techniques.</p>
+                </div>
+
+                <div class="event-col">
+                    <img src="img/buffet.png" alt="buffet style catering">
+                </div>
+
+                <div class="event-col event-text">
+                    <h3>THEMED BUFFETS</h3>
+                    <p>We've curated delightful menus with a variety of flavors and traditions. Our themed buffets promise an authentic and mouthwatering experience. With each theme, we take pride in capturing the essence of its culture and infusing it into every dish.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="event-col">
+                    <img src="img/horsdov.png" alt="luxury hors D'oeuvres">
+                </div>
+
+                <div class="event-col">
+                    <h3>MEETINGS & GATHERINGS</h3>
+                    <p>Elevate your meetings and gatherings with our meticulously crafted catering services, whether it's a breakfast meeting or a lunch gathering. We offer a range of healthy and delicious items, either as a buffet or an individial meals,  and each dish is carefully prepared with a focus on quality ingredients.</p>
+                </div>
+
+                <div class="event-col">
+                    <img src="img/meeting.png">
+                </div>
+            </div>
+        </section>
+    </section>
+
+<!--- testimonials --->
+    <section class="back">
+        <section class="testimonials">
+            <h3>WHAT OUR CLIENTS THINK</h3>
+            <div class="row">
+                <div class="testimonial-col">
+                    <p>Our team thought this was delicious. We ordered the parfaits, bagels, and avo toast with salmon. All high quality. And all on time!</p>
+                    <h3>Dayan</h3>
+
+                </div>
+                <div class="testimonial-col">
+                    <p>On-time delivery. What an amazing assortment of sandwiches. We are very pleased with their food and service. We will be ordering again.</p>
+                    <h3>Taira</h3>
+                </div>
+
+                <div class="testimonial-col">
+                    <p>The food was fabulous, and exactly what it should be. I loved the brussel salad! It went over very well in it's meeting, and the dessert tray was devoured instantly.</p>
+                    <h3>Camille</h3>
+                </div>
+            </div>
+                 
+        </section>
+    </section>
+
+    <section class="back">
+        <section class="cta">
+            <h1>book your catering experience</h1>
+            <a href="contact.html" class="btn">CONTACT US</a>
+        </section>
+    </section>
+
+    <!--- footer --->
+
+    <footer>
+        <div class="row">
+            <p>bluevelvetcateringnyc@gmail.com</p>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="blue velvet catering nyc new york"></a>
+            <p>5 E 47th St. New York, NY</p>
+        </div>
+    </footer>
+
+
+    
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

@@ -483,14 +483,18 @@ p{
     display: inline-block;
 }
 
-.menu a{
+.menu-list a{
     padding: 5px 0;
     font-size: 1.1rem;
     color: white;
 }
 
-.menu a:hover{
+.menu-list a:hover{
     color: rgb(116, 18, 18);
+}
+
+.menu .btn{
+    margin: 40px;
 }
 
 .ideas p{
@@ -556,6 +560,16 @@ p{
     border: 1px solid rgb(207, 227, 245);
     font-size: 0.6rem;
 }
+
+.thank{
+    height: 100vh;
+}
+
+.thank h1{
+    padding-top: 15%;
+}
+
+
 
 
 
